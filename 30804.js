@@ -1,5 +1,5 @@
 
-//original in strings
+// // original in strings
 // const csvstring = `ID,Name,Occupation,Age\r\n42,Bruce,Knight,41\r\n57,Bob,Fry_Cook,19 \r\n63,Blaine,Quiz_Master,58\r\n98,Bill,Doctors_Assistant,26`;
 
 // const rows = csvstring.split("\r\n");
@@ -85,7 +85,7 @@
 
 // const dataArray = [];
 
-// for (let i = 1; i < rows.length; i++) {
+// for (let i = 0; i < rows.length; i++) {
 //     const cells = rows[i].split(",");
 //     const rowObject = {};
 
@@ -112,10 +112,11 @@
 
 // dataArray[1].NewColumn = ''; 
 // dataArray[3].NewColumn = '';
+// dataArray[5].NewColumn = '';
 
 // console.log(dataArray);
 
-//last step back to cvs!
+//last step back to csv!
 
 const dataArray = [
     { id: "42", name: "Bruce", occupation: "Knight", age: "41", NewColumn: "" },
